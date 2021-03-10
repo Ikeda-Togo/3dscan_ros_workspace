@@ -1,0 +1,8 @@
+prefix=/home/magnarecta/ws_livox/devel
+
+Name: microstrain_mips
+Description: Description of microstrain_mips
+Version: 0.0.3
+Cflags: -I/home/magnarecta/ws_livox/devel/include -I/home/magnarecta/ws_livox/src/microstrain_mips/include
+Libs: -L${prefix}/lib 
+Requires: roscpp cmake_modules tf2 tf2_ros std_msgs std_srvs geometry_msgs sensor_msgs nav_msgs message_runtime

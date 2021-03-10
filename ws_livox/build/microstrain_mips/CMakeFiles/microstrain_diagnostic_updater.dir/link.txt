@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libmicrostrain_diagnostic_updater.so -o /home/magnarecta/ws_livox/devel/lib/libmicrostrain_diagnostic_updater.so CMakeFiles/microstrain_diagnostic_updater.dir/src/microstrain_diagnostic_updater.cpp.o 

@@ -1,0 +1,8 @@
+prefix=/home/magnarecta/ws_livox/devel
+
+Name: velodyne_msgs
+Description: Description of velodyne_msgs
+Version: 1.6.1
+Cflags: -I/home/magnarecta/ws_livox/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs
