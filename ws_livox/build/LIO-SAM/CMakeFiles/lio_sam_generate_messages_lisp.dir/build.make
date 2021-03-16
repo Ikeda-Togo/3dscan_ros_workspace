@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/magnarecta/ws_livox/build
 include LIO-SAM/CMakeFiles/lio_sam_generate_messages_lisp.dir/progress.make
 
 LIO-SAM/CMakeFiles/lio_sam_generate_messages_lisp: /home/magnarecta/ws_livox/devel/share/common-lisp/ros/lio_sam/msg/cloud_info.lisp
+LIO-SAM/CMakeFiles/lio_sam_generate_messages_lisp: /home/magnarecta/ws_livox/devel/share/common-lisp/ros/lio_sam/srv/save_map.lisp
 
 
 /home/magnarecta/ws_livox/devel/share/common-lisp/ros/lio_sam/msg/cloud_info.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
@@ -64,8 +65,14 @@ LIO-SAM/CMakeFiles/lio_sam_generate_messages_lisp: /home/magnarecta/ws_livox/dev
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/magnarecta/ws_livox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from lio_sam/cloud_info.msg"
 	cd /home/magnarecta/ws_livox/build/LIO-SAM && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/magnarecta/ws_livox/src/LIO-SAM/msg/cloud_info.msg -Ilio_sam:/home/magnarecta/ws_livox/src/LIO-SAM/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p lio_sam -o /home/magnarecta/ws_livox/devel/share/common-lisp/ros/lio_sam/msg
 
+/home/magnarecta/ws_livox/devel/share/common-lisp/ros/lio_sam/srv/save_map.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/magnarecta/ws_livox/devel/share/common-lisp/ros/lio_sam/srv/save_map.lisp: /home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/magnarecta/ws_livox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from lio_sam/save_map.srv"
+	cd /home/magnarecta/ws_livox/build/LIO-SAM && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv -Ilio_sam:/home/magnarecta/ws_livox/src/LIO-SAM/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p lio_sam -o /home/magnarecta/ws_livox/devel/share/common-lisp/ros/lio_sam/srv
+
 lio_sam_generate_messages_lisp: LIO-SAM/CMakeFiles/lio_sam_generate_messages_lisp
 lio_sam_generate_messages_lisp: /home/magnarecta/ws_livox/devel/share/common-lisp/ros/lio_sam/msg/cloud_info.lisp
+lio_sam_generate_messages_lisp: /home/magnarecta/ws_livox/devel/share/common-lisp/ros/lio_sam/srv/save_map.lisp
 lio_sam_generate_messages_lisp: LIO-SAM/CMakeFiles/lio_sam_generate_messages_lisp.dir/build.make
 
 .PHONY : lio_sam_generate_messages_lisp

@@ -185,7 +185,7 @@ foreach(t ${lio_sam_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "std_msgs;nav_msgs;geometry_msgs;sensor_msgs;message_runtime;message_generation")
+set(depends "std_msgs;nav_msgs;geometry_msgs;sensor_msgs;message_runtime;message_generation;visualization_msgs")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls

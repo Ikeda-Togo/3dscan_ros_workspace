@@ -3,6 +3,9 @@
 
 LIO-SAM/CMakeFiles/lio_sam_mapOptmization.dir/src/mapOptmization.cpp.o
  /home/magnarecta/ws_livox/devel/include/lio_sam/cloud_info.h
+ /home/magnarecta/ws_livox/devel/include/lio_sam/save_map.h
+ /home/magnarecta/ws_livox/devel/include/lio_sam/save_mapRequest.h
+ /home/magnarecta/ws_livox/devel/include/lio_sam/save_mapResponse.h
  /home/magnarecta/ws_livox/src/LIO-SAM/include/utility.h
  /home/magnarecta/ws_livox/src/LIO-SAM/src/mapOptmization.cpp
  /opt/ros/melodic/include/geometry_msgs/Point.h

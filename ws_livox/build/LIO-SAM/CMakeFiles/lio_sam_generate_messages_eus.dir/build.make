@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/magnarecta/ws_livox/build
 include LIO-SAM/CMakeFiles/lio_sam_generate_messages_eus.dir/progress.make
 
 LIO-SAM/CMakeFiles/lio_sam_generate_messages_eus: /home/magnarecta/ws_livox/devel/share/roseus/ros/lio_sam/msg/cloud_info.l
+LIO-SAM/CMakeFiles/lio_sam_generate_messages_eus: /home/magnarecta/ws_livox/devel/share/roseus/ros/lio_sam/srv/save_map.l
 LIO-SAM/CMakeFiles/lio_sam_generate_messages_eus: /home/magnarecta/ws_livox/devel/share/roseus/ros/lio_sam/manifest.l
 
 
@@ -65,12 +66,18 @@ LIO-SAM/CMakeFiles/lio_sam_generate_messages_eus: /home/magnarecta/ws_livox/deve
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/magnarecta/ws_livox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from lio_sam/cloud_info.msg"
 	cd /home/magnarecta/ws_livox/build/LIO-SAM && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/magnarecta/ws_livox/src/LIO-SAM/msg/cloud_info.msg -Ilio_sam:/home/magnarecta/ws_livox/src/LIO-SAM/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p lio_sam -o /home/magnarecta/ws_livox/devel/share/roseus/ros/lio_sam/msg
 
+/home/magnarecta/ws_livox/devel/share/roseus/ros/lio_sam/srv/save_map.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/magnarecta/ws_livox/devel/share/roseus/ros/lio_sam/srv/save_map.l: /home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/magnarecta/ws_livox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from lio_sam/save_map.srv"
+	cd /home/magnarecta/ws_livox/build/LIO-SAM && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv -Ilio_sam:/home/magnarecta/ws_livox/src/LIO-SAM/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p lio_sam -o /home/magnarecta/ws_livox/devel/share/roseus/ros/lio_sam/srv
+
 /home/magnarecta/ws_livox/devel/share/roseus/ros/lio_sam/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/magnarecta/ws_livox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for lio_sam"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/magnarecta/ws_livox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for lio_sam"
 	cd /home/magnarecta/ws_livox/build/LIO-SAM && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/magnarecta/ws_livox/devel/share/roseus/ros/lio_sam lio_sam geometry_msgs std_msgs nav_msgs sensor_msgs
 
 lio_sam_generate_messages_eus: LIO-SAM/CMakeFiles/lio_sam_generate_messages_eus
 lio_sam_generate_messages_eus: /home/magnarecta/ws_livox/devel/share/roseus/ros/lio_sam/msg/cloud_info.l
+lio_sam_generate_messages_eus: /home/magnarecta/ws_livox/devel/share/roseus/ros/lio_sam/srv/save_map.l
 lio_sam_generate_messages_eus: /home/magnarecta/ws_livox/devel/share/roseus/ros/lio_sam/manifest.l
 lio_sam_generate_messages_eus: LIO-SAM/CMakeFiles/lio_sam_generate_messages_eus.dir/build.make
 

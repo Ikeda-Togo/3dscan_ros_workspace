@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lio_sam_generate_messages_eus"
   "/home/magnarecta/ws_livox/devel/share/roseus/ros/lio_sam/msg/cloud_info.l"
+  "/home/magnarecta/ws_livox/devel/share/roseus/ros/lio_sam/srv/save_map.l"
   "/home/magnarecta/ws_livox/devel/share/roseus/ros/lio_sam/manifest.l"
 )
 

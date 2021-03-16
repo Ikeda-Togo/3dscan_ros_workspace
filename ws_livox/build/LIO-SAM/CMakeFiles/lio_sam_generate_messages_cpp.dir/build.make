@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/magnarecta/ws_livox/build
 include LIO-SAM/CMakeFiles/lio_sam_generate_messages_cpp.dir/progress.make
 
 LIO-SAM/CMakeFiles/lio_sam_generate_messages_cpp: /home/magnarecta/ws_livox/devel/include/lio_sam/cloud_info.h
+LIO-SAM/CMakeFiles/lio_sam_generate_messages_cpp: /home/magnarecta/ws_livox/devel/include/lio_sam/save_map.h
 
 
 /home/magnarecta/ws_livox/devel/include/lio_sam/cloud_info.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
@@ -65,8 +66,16 @@ LIO-SAM/CMakeFiles/lio_sam_generate_messages_cpp: /home/magnarecta/ws_livox/deve
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/magnarecta/ws_livox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from lio_sam/cloud_info.msg"
 	cd /home/magnarecta/ws_livox/src/LIO-SAM && /home/magnarecta/ws_livox/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/magnarecta/ws_livox/src/LIO-SAM/msg/cloud_info.msg -Ilio_sam:/home/magnarecta/ws_livox/src/LIO-SAM/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p lio_sam -o /home/magnarecta/ws_livox/devel/include/lio_sam -e /opt/ros/melodic/share/gencpp/cmake/..
 
+/home/magnarecta/ws_livox/devel/include/lio_sam/save_map.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/magnarecta/ws_livox/devel/include/lio_sam/save_map.h: /home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv
+/home/magnarecta/ws_livox/devel/include/lio_sam/save_map.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/magnarecta/ws_livox/devel/include/lio_sam/save_map.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/magnarecta/ws_livox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from lio_sam/save_map.srv"
+	cd /home/magnarecta/ws_livox/src/LIO-SAM && /home/magnarecta/ws_livox/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv -Ilio_sam:/home/magnarecta/ws_livox/src/LIO-SAM/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p lio_sam -o /home/magnarecta/ws_livox/devel/include/lio_sam -e /opt/ros/melodic/share/gencpp/cmake/..
+
 lio_sam_generate_messages_cpp: LIO-SAM/CMakeFiles/lio_sam_generate_messages_cpp
 lio_sam_generate_messages_cpp: /home/magnarecta/ws_livox/devel/include/lio_sam/cloud_info.h
+lio_sam_generate_messages_cpp: /home/magnarecta/ws_livox/devel/include/lio_sam/save_map.h
 lio_sam_generate_messages_cpp: LIO-SAM/CMakeFiles/lio_sam_generate_messages_cpp.dir/build.make
 
 .PHONY : lio_sam_generate_messages_cpp

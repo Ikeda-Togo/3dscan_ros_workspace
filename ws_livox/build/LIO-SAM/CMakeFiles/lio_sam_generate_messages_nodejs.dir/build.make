@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/magnarecta/ws_livox/build
 include LIO-SAM/CMakeFiles/lio_sam_generate_messages_nodejs.dir/progress.make
 
 LIO-SAM/CMakeFiles/lio_sam_generate_messages_nodejs: /home/magnarecta/ws_livox/devel/share/gennodejs/ros/lio_sam/msg/cloud_info.js
+LIO-SAM/CMakeFiles/lio_sam_generate_messages_nodejs: /home/magnarecta/ws_livox/devel/share/gennodejs/ros/lio_sam/srv/save_map.js
 
 
 /home/magnarecta/ws_livox/devel/share/gennodejs/ros/lio_sam/msg/cloud_info.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
@@ -64,8 +65,14 @@ LIO-SAM/CMakeFiles/lio_sam_generate_messages_nodejs: /home/magnarecta/ws_livox/d
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/magnarecta/ws_livox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from lio_sam/cloud_info.msg"
 	cd /home/magnarecta/ws_livox/build/LIO-SAM && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/magnarecta/ws_livox/src/LIO-SAM/msg/cloud_info.msg -Ilio_sam:/home/magnarecta/ws_livox/src/LIO-SAM/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p lio_sam -o /home/magnarecta/ws_livox/devel/share/gennodejs/ros/lio_sam/msg
 
+/home/magnarecta/ws_livox/devel/share/gennodejs/ros/lio_sam/srv/save_map.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/magnarecta/ws_livox/devel/share/gennodejs/ros/lio_sam/srv/save_map.js: /home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/magnarecta/ws_livox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from lio_sam/save_map.srv"
+	cd /home/magnarecta/ws_livox/build/LIO-SAM && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv -Ilio_sam:/home/magnarecta/ws_livox/src/LIO-SAM/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p lio_sam -o /home/magnarecta/ws_livox/devel/share/gennodejs/ros/lio_sam/srv
+
 lio_sam_generate_messages_nodejs: LIO-SAM/CMakeFiles/lio_sam_generate_messages_nodejs
 lio_sam_generate_messages_nodejs: /home/magnarecta/ws_livox/devel/share/gennodejs/ros/lio_sam/msg/cloud_info.js
+lio_sam_generate_messages_nodejs: /home/magnarecta/ws_livox/devel/share/gennodejs/ros/lio_sam/srv/save_map.js
 lio_sam_generate_messages_nodejs: LIO-SAM/CMakeFiles/lio_sam_generate_messages_nodejs.dir/build.make
 
 .PHONY : lio_sam_generate_messages_nodejs

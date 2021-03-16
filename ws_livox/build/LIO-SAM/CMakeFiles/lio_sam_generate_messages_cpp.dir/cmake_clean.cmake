@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lio_sam_generate_messages_cpp"
   "/home/magnarecta/ws_livox/devel/include/lio_sam/cloud_info.h"
+  "/home/magnarecta/ws_livox/devel/include/lio_sam/save_map.h"
 )
 
 # Per-language clean rules from dependency scanning.

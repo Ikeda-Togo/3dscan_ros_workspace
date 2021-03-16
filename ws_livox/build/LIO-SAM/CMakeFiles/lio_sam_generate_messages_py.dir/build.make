@@ -54,7 +54,9 @@ CMAKE_BINARY_DIR = /home/magnarecta/ws_livox/build
 include LIO-SAM/CMakeFiles/lio_sam_generate_messages_py.dir/progress.make
 
 LIO-SAM/CMakeFiles/lio_sam_generate_messages_py: /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/msg/_cloud_info.py
+LIO-SAM/CMakeFiles/lio_sam_generate_messages_py: /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/srv/_save_map.py
 LIO-SAM/CMakeFiles/lio_sam_generate_messages_py: /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/msg/__init__.py
+LIO-SAM/CMakeFiles/lio_sam_generate_messages_py: /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/srv/__init__.py
 
 
 /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/msg/_cloud_info.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
@@ -65,14 +67,28 @@ LIO-SAM/CMakeFiles/lio_sam_generate_messages_py: /home/magnarecta/ws_livox/devel
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/magnarecta/ws_livox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG lio_sam/cloud_info"
 	cd /home/magnarecta/ws_livox/build/LIO-SAM && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/magnarecta/ws_livox/src/LIO-SAM/msg/cloud_info.msg -Ilio_sam:/home/magnarecta/ws_livox/src/LIO-SAM/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p lio_sam -o /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/msg
 
+/home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/srv/_save_map.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
+/home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/srv/_save_map.py: /home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/magnarecta/ws_livox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV lio_sam/save_map"
+	cd /home/magnarecta/ws_livox/build/LIO-SAM && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv -Ilio_sam:/home/magnarecta/ws_livox/src/LIO-SAM/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p lio_sam -o /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/srv
+
 /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/msg/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/msg/__init__.py: /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/msg/_cloud_info.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/magnarecta/ws_livox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for lio_sam"
+/home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/msg/__init__.py: /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/srv/_save_map.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/magnarecta/ws_livox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for lio_sam"
 	cd /home/magnarecta/ws_livox/build/LIO-SAM && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/msg --initpy
+
+/home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/srv/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/srv/__init__.py: /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/msg/_cloud_info.py
+/home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/srv/__init__.py: /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/srv/_save_map.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/magnarecta/ws_livox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python srv __init__.py for lio_sam"
+	cd /home/magnarecta/ws_livox/build/LIO-SAM && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/srv --initpy
 
 lio_sam_generate_messages_py: LIO-SAM/CMakeFiles/lio_sam_generate_messages_py
 lio_sam_generate_messages_py: /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/msg/_cloud_info.py
+lio_sam_generate_messages_py: /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/srv/_save_map.py
 lio_sam_generate_messages_py: /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/msg/__init__.py
+lio_sam_generate_messages_py: /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/srv/__init__.py
 lio_sam_generate_messages_py: LIO-SAM/CMakeFiles/lio_sam_generate_messages_py.dir/build.make
 
 .PHONY : lio_sam_generate_messages_py

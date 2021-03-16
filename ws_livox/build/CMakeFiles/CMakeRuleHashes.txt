@@ -1,5 +1,8 @@
 # Hashes of file build rules.
 15573a92f81b64904f5a5b6bfa6d0c1d /home/magnarecta/ws_livox/devel/include/lio_sam/cloud_info.h
+e84444bef981e0619ddcd0248d5b5fa5 /home/magnarecta/ws_livox/devel/include/lio_sam/save_map.h
+1025439598fa1418eadbeb3869c22a44 /home/magnarecta/ws_livox/devel/include/lio_sam2/cloud_info.h
+f0baf1bc0c90d4a804dab4c08e68c088 /home/magnarecta/ws_livox/devel/include/lio_sam2/save_map.h
 1b0b334a8c06b547f11717c7f422bd07 /home/magnarecta/ws_livox/devel/include/livox_ros_driver/CustomMsg.h
 364ab0e9b70c133ea4bcc3735aed80fa /home/magnarecta/ws_livox/devel/include/livox_ros_driver/CustomPoint.h
 a66ed8e244267650588164ff8d11b60a /home/magnarecta/ws_livox/devel/include/microstrain_mips/SetAccelAdaptiveVals.h
@@ -33,6 +36,12 @@ bf6ffade4bb5c38093d5d51616e64571 /home/magnarecta/ws_livox/devel/include/velodyn
 932de450dd9f6f59122aea84f900cf79 /home/magnarecta/ws_livox/devel/include/velodyne_pointcloud/TransformNodeConfig.h
 3db268a7c3e42e28384e6388cff53aa0 /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/msg/__init__.py
 609d7eb04e7c3289bf0155551a847d75 /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/msg/_cloud_info.py
+15fa9e0ec40f8e3a5e5b498bcdaa963a /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/srv/__init__.py
+8fcc655428ee65555f4b67c8bd8e11d0 /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam/srv/_save_map.py
+2831be7591ad9881ac614e20e7fa9839 /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam2/msg/__init__.py
+6abab3bbd22970b904a769a71aa05312 /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam2/msg/_cloud_info.py
+3d37bd39388f42affb256db24841b5c2 /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam2/srv/__init__.py
+c3d798c8049df964e8cc80f1a3b78cea /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/lio_sam2/srv/_save_map.py
 3c284fdd10df09b26ec489933dec8498 /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/livox_ros_driver/msg/_CustomMsg.py
 09fb7081f3bc27cbcf52ab822ecd2112 /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/livox_ros_driver/msg/_CustomPoint.py
 1bfae7ff5d23511cef89b676ecc64e56 /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/livox_ros_driver/msg/__init__.py
@@ -66,6 +75,9 @@ f07828519e3a28576ad5586c3212a2e1 /home/magnarecta/ws_livox/devel/lib/python2.7/d
 3ddffa67669edd11b618377353d00d46 /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/velodyne_msgs/msg/_VelodyneScan.py
 7fa0f450b2872145a49e21b5569c9e43 /home/magnarecta/ws_livox/devel/lib/python2.7/dist-packages/velodyne_msgs/msg/__init__.py
 bf9310d20317e8bc11ee96b5232f31e0 /home/magnarecta/ws_livox/devel/share/common-lisp/ros/lio_sam/msg/cloud_info.lisp
+15310ce08906eafbf2705bb41c3fdbac /home/magnarecta/ws_livox/devel/share/common-lisp/ros/lio_sam/srv/save_map.lisp
+99d9a36a62c5ce7fd98ebbd181b20716 /home/magnarecta/ws_livox/devel/share/common-lisp/ros/lio_sam2/msg/cloud_info.lisp
+10a5916d6a47505cebd6e04042935735 /home/magnarecta/ws_livox/devel/share/common-lisp/ros/lio_sam2/srv/save_map.lisp
 0e26650126478e9a9db2a99230e34f8e /home/magnarecta/ws_livox/devel/share/common-lisp/ros/livox_ros_driver/msg/CustomMsg.lisp
 5f6069dfa76090127e85057e1daef8d5 /home/magnarecta/ws_livox/devel/share/common-lisp/ros/livox_ros_driver/msg/CustomPoint.lisp
 5d132905cf7f8024cd4d1d8563b8c486 /home/magnarecta/ws_livox/devel/share/common-lisp/ros/microstrain_mips/msg/status_msg.lisp
@@ -95,6 +107,9 @@ d821254891d330bb24facf478622f2e8 /home/magnarecta/ws_livox/devel/share/common-li
 83718546d5ecdfe2b4d55cfd3795add0 /home/magnarecta/ws_livox/devel/share/common-lisp/ros/velodyne_msgs/msg/VelodynePacket.lisp
 b81588715f0217d04dedbdb966e38699 /home/magnarecta/ws_livox/devel/share/common-lisp/ros/velodyne_msgs/msg/VelodyneScan.lisp
 345873c007ada8a17560678d51430ad4 /home/magnarecta/ws_livox/devel/share/gennodejs/ros/lio_sam/msg/cloud_info.js
+1e79ee75f8d68af65d24ac666c6695ec /home/magnarecta/ws_livox/devel/share/gennodejs/ros/lio_sam/srv/save_map.js
+7caa796b48bfa87a2b5786eb2ae192c4 /home/magnarecta/ws_livox/devel/share/gennodejs/ros/lio_sam2/msg/cloud_info.js
+6da01f1793064b1fff684158e4777c22 /home/magnarecta/ws_livox/devel/share/gennodejs/ros/lio_sam2/srv/save_map.js
 e0a9e8ee40468fefc8a9228bef09ec90 /home/magnarecta/ws_livox/devel/share/gennodejs/ros/livox_ros_driver/msg/CustomMsg.js
 83882bc1b00e3100f7a88c1f115e1750 /home/magnarecta/ws_livox/devel/share/gennodejs/ros/livox_ros_driver/msg/CustomPoint.js
 3d36d2f53890044bbbdfd0e8bc005996 /home/magnarecta/ws_livox/devel/share/gennodejs/ros/microstrain_mips/msg/status_msg.js
@@ -125,6 +140,10 @@ fbdfcd2c2652fe9fb22eb8ee053381a9 /home/magnarecta/ws_livox/devel/share/gennodejs
 701f76b778b2ba92eeeb3b5522a02b69 /home/magnarecta/ws_livox/devel/share/gennodejs/ros/velodyne_msgs/msg/VelodyneScan.js
 bf4883c57485f231dfb00a909ae69f7d /home/magnarecta/ws_livox/devel/share/roseus/ros/lio_sam/manifest.l
 00d2ec673a37c4fdec7216b0b959ba86 /home/magnarecta/ws_livox/devel/share/roseus/ros/lio_sam/msg/cloud_info.l
+65bee614c127b9f96af2db9bc7d7303a /home/magnarecta/ws_livox/devel/share/roseus/ros/lio_sam/srv/save_map.l
+62b0e55d78c8c59a637514b80bd66456 /home/magnarecta/ws_livox/devel/share/roseus/ros/lio_sam2/manifest.l
+413dcda992b89963ee225196a2a7dad5 /home/magnarecta/ws_livox/devel/share/roseus/ros/lio_sam2/msg/cloud_info.l
+b4e71371d3b8e68b10288a33dab6ab75 /home/magnarecta/ws_livox/devel/share/roseus/ros/lio_sam2/srv/save_map.l
 c79a1a64dfb79a104493ec23572eeb4f /home/magnarecta/ws_livox/devel/share/roseus/ros/livox_ros_driver/manifest.l
 d9e5767d42dff610799e022275246a08 /home/magnarecta/ws_livox/devel/share/roseus/ros/livox_ros_driver/msg/CustomMsg.l
 3261edb84eb70f516caa5be17a405a7f /home/magnarecta/ws_livox/devel/share/roseus/ros/livox_ros_driver/msg/CustomPoint.l
@@ -158,6 +177,7 @@ df07b04ae5daf9f6c959efddc2c8d5ab /home/magnarecta/ws_livox/devel/share/roseus/ro
 4fdb8298a8a8c661af4ca730fc79600e /home/magnarecta/ws_livox/devel/share/roseus/ros/velodyne_msgs/msg/VelodyneScan.l
 3618854204d47e8f18fb9556c4b49eec CMakeFiles/clean_test_results
 7c5416eadccc13316552a23aacc70615 LIO-SAM/CMakeFiles/_lio_sam_generate_messages_check_deps_cloud_info
+ec2a674dd9f727ff97552af12fa55ab4 LIO-SAM/CMakeFiles/_lio_sam_generate_messages_check_deps_save_map
 451195d6c731537237e03e44509db227 LIO-SAM/CMakeFiles/lio_sam_generate_messages_cpp
 451195d6c731537237e03e44509db227 LIO-SAM/CMakeFiles/lio_sam_generate_messages_eus
 451195d6c731537237e03e44509db227 LIO-SAM/CMakeFiles/lio_sam_generate_messages_lisp

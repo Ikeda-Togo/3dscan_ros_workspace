@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = "/home/magnarecta/ws_livox/src/LIO-SAM/msg/cloud_info.msg"
-services_str = ""
+services_str = "/home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv"
 pkg_name = "lio_sam"
 dependencies_str = "geometry_msgs;std_msgs;nav_msgs;sensor_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

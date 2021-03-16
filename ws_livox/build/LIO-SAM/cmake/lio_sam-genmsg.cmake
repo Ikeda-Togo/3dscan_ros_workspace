@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "lio_sam: 1 messages, 0 services")
+message(STATUS "lio_sam: 1 messages, 1 services")
 
 set(MSG_I_FLAGS "-Ilio_sam:/home/magnarecta/ws_livox/src/LIO-SAM/msg;-Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg;-Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg")
 
@@ -16,6 +16,11 @@ add_custom_target(lio_sam_generate_messages ALL)
 # verify that message/service dependencies have not changed since configure
 
 
+
+get_filename_component(_filename "/home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv" NAME_WE)
+add_custom_target(_lio_sam_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "lio_sam" "/home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv" ""
+)
 
 get_filename_component(_filename "/home/magnarecta/ws_livox/src/LIO-SAM/msg/cloud_info.msg" NAME_WE)
 add_custom_target(_lio_sam_generate_messages_check_deps_${_filename}
@@ -36,6 +41,12 @@ _generate_msg_cpp(lio_sam
 )
 
 ### Generating Services
+_generate_srv_cpp(lio_sam
+  "/home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/lio_sam
+)
 
 ### Generating Module File
 _generate_module_cpp(lio_sam
@@ -49,6 +60,8 @@ add_custom_target(lio_sam_generate_messages_cpp
 add_dependencies(lio_sam_generate_messages lio_sam_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv" NAME_WE)
+add_dependencies(lio_sam_generate_messages_cpp _lio_sam_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/magnarecta/ws_livox/src/LIO-SAM/msg/cloud_info.msg" NAME_WE)
 add_dependencies(lio_sam_generate_messages_cpp _lio_sam_generate_messages_check_deps_${_filename})
 
@@ -69,6 +82,12 @@ _generate_msg_eus(lio_sam
 )
 
 ### Generating Services
+_generate_srv_eus(lio_sam
+  "/home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/lio_sam
+)
 
 ### Generating Module File
 _generate_module_eus(lio_sam
@@ -82,6 +101,8 @@ add_custom_target(lio_sam_generate_messages_eus
 add_dependencies(lio_sam_generate_messages lio_sam_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv" NAME_WE)
+add_dependencies(lio_sam_generate_messages_eus _lio_sam_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/magnarecta/ws_livox/src/LIO-SAM/msg/cloud_info.msg" NAME_WE)
 add_dependencies(lio_sam_generate_messages_eus _lio_sam_generate_messages_check_deps_${_filename})
 
@@ -102,6 +123,12 @@ _generate_msg_lisp(lio_sam
 )
 
 ### Generating Services
+_generate_srv_lisp(lio_sam
+  "/home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/lio_sam
+)
 
 ### Generating Module File
 _generate_module_lisp(lio_sam
@@ -115,6 +142,8 @@ add_custom_target(lio_sam_generate_messages_lisp
 add_dependencies(lio_sam_generate_messages lio_sam_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv" NAME_WE)
+add_dependencies(lio_sam_generate_messages_lisp _lio_sam_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/magnarecta/ws_livox/src/LIO-SAM/msg/cloud_info.msg" NAME_WE)
 add_dependencies(lio_sam_generate_messages_lisp _lio_sam_generate_messages_check_deps_${_filename})
 
@@ -135,6 +164,12 @@ _generate_msg_nodejs(lio_sam
 )
 
 ### Generating Services
+_generate_srv_nodejs(lio_sam
+  "/home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/lio_sam
+)
 
 ### Generating Module File
 _generate_module_nodejs(lio_sam
@@ -148,6 +183,8 @@ add_custom_target(lio_sam_generate_messages_nodejs
 add_dependencies(lio_sam_generate_messages lio_sam_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv" NAME_WE)
+add_dependencies(lio_sam_generate_messages_nodejs _lio_sam_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/magnarecta/ws_livox/src/LIO-SAM/msg/cloud_info.msg" NAME_WE)
 add_dependencies(lio_sam_generate_messages_nodejs _lio_sam_generate_messages_check_deps_${_filename})
 
@@ -168,6 +205,12 @@ _generate_msg_py(lio_sam
 )
 
 ### Generating Services
+_generate_srv_py(lio_sam
+  "/home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/lio_sam
+)
 
 ### Generating Module File
 _generate_module_py(lio_sam
@@ -181,6 +224,8 @@ add_custom_target(lio_sam_generate_messages_py
 add_dependencies(lio_sam_generate_messages lio_sam_generate_messages_py)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/magnarecta/ws_livox/src/LIO-SAM/srv/save_map.srv" NAME_WE)
+add_dependencies(lio_sam_generate_messages_py _lio_sam_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/magnarecta/ws_livox/src/LIO-SAM/msg/cloud_info.msg" NAME_WE)
 add_dependencies(lio_sam_generate_messages_py _lio_sam_generate_messages_check_deps_${_filename})
 
