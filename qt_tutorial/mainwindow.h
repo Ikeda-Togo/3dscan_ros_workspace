@@ -14,10 +14,11 @@ class MainWindow : public QMainWindow
 public:
   explicit MainWindow(QWidget *parent = nullptr);
 private slots:
-  void liosamButton();
+  void liosamindoorButton();
+  void liosamoutdoorButton();
   void rvizButton();
   void saveButton();
 private:
-  QPushButton *save_button, *liosam_button, *rviz_button;
+  QPushButton *save_button, *liosam_indoor_button,*liosam_outdoor_button, *rviz_button;
 };
 #endif // MAINWINDOW_H
