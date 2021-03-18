@@ -1,9 +1,0 @@
- <launch>
-
-    <!--- Run Rviz-->
-    <node pkg="timed_roslaunch" type="timed_roslaunch.sh"
-         args="10 lio_sam module_rviz.launch" name="timed_roslaunch" output="screen" />
-
-   <!-- <include file="$(find lio_sam)/launch/include/module_rviz.launch" />-->
-
- </launch>

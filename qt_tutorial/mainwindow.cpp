@@ -1,6 +1,9 @@
 #include "mainwindow.h"
  #include <stdio.h>
  #include <stdlib.h>
+ #include <iostream>
+ #include <sstream> //値を簡単に文字列にするため
+ 
  
  #define LIOSAMSHELL "\
  #/bin/bash \n\
@@ -18,6 +21,10 @@
  #/bin/bash \n\
  rosservice call /lio_sam/save_map 0.2 \"/Downloads/LOAM/\" \
 "
+std::string saveShell="\
+ #/bin/bash \n\
+ rosservice call /lio_sam/save_map 0.2 \"/Downloads/LOAM/\" \
+";
 
 MainWindow::MainWindow(QWidget *parent)
   : QMainWindow(parent)
@@ -58,8 +65,33 @@ void MainWindow::rvizButton()
   system(RVIZSHELL);
 }
 
+std::string Day_And_Time(){
+  time_t t = time(nullptr);
+  const tm* lt = localtime(&t);
+  std::stringstream s;
+  s<<"20";
+  s<<lt->tm_year-100; 
+  s<<"-";
+  s<<lt->tm_mon+1; 
+  s<<"-";
+  s<<lt->tm_mday; 
+  s<<"-";
+  s<<lt->tm_hour; 
+  s<<lt->tm_min; 
+
+  return s.str();
+}
+
 void MainWindow::saveButton()
 {
   printf("save to file\n");
-  system(SAVESHELL);
+  std::string now = Day_And_Time();
+  
+  saveShell ="\
+ #/bin/bash \n\
+ rosservice call /lio_sam/save_map 0.2 \"/Downloads/LOAM/" + now +"/\"\
+"; 
+  std::cout << "save is :"
+         << saveShell.c_str() << " です。"<< std::endl;
+  system(saveShell.c_str());
 }

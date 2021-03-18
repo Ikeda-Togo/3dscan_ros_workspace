@@ -1,8 +1,0 @@
-prefix=/home/magnarecta/ws_livox/devel
-
-Name: 3d_mapping
-Description: Description of 3d_mapping
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,8 +1,0 @@
-prefix=/home/magnarecta/ws_livox/devel
-
-Name: qml_lecture
-Description: Description of qml_lecture
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
