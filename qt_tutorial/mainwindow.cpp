@@ -36,9 +36,9 @@ MainWindow::MainWindow(QWidget *parent)
   save_button = new QPushButton("save pcd", this);
   // set size and location of the button
   liosam_indoor_button->setGeometry(QRect(QPoint(100, 100), QSize(200, 50)));
-  liosam_outdoor_button->setGeometry(QRect(QPoint(400, 100), QSize(200, 50)));
-  rviz_button->setGeometry(QRect(QPoint(100, 200), QSize(200, 50)));
-  save_button->setGeometry(QRect(QPoint(400, 200), QSize(200, 50)));
+  liosam_outdoor_button->setGeometry(QRect(QPoint(100, 200), QSize(200, 50)));
+  rviz_button->setGeometry(QRect(QPoint(100, 300), QSize(200, 50)));
+  save_button->setGeometry(QRect(QPoint(100, 400), QSize(200, 50)));
  
   // Connect button signal to appropriate slot
   connect(liosam_indoor_button, &QPushButton::released, this, &MainWindow::liosamindoorButton);
