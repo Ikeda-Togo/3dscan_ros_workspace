@@ -78,6 +78,7 @@ std::string Day_And_Time(){
   s<<"-";
   s<<lt->tm_hour; 
   s<<lt->tm_min; 
+  s<<lt->tm_sec; 
 
   return s.str();
 }
